@@ -328,6 +328,18 @@ const TimeLine = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
               </div>
             </div>
+            <UrlButton
+              href="https://competent-liskov-49a579.netlify.app/"
+              target="_blank"
+            >
+              SEE LIVE
+                </UrlButton>
+            <UrlButton
+              href="https://github.com/HammadAli-WD/portfolio.github.io"
+              target="_blank"
+            >
+              SOURCE CODE
+                </UrlButton>
           </ImageEvent>
 
 
