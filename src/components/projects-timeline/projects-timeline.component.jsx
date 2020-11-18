@@ -311,12 +311,13 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src="https://hidenobu-tokuda.com/wp-content/uploads/2019/05/heroku-logo-solid-gradient.png"
-                                alt="Heroku"
+                                src="https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
+                                alt="Netlify"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Heroku
+                              Netlify
+
                             </span>
                           </li>
                         </ul>
