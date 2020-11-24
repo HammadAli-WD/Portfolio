@@ -11,7 +11,7 @@ const MyCarousal = () => {
           <img className="d-block w-100 custom-img" src="https://content.techgig.com/thumb/msid-74548080,width-860,resizemode-4/4-essential-skills-every-NET-developer-must-possess.jpg?67629" alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 custom-img" src="https://s3-ap-southeast-1.amazonaws.com/djamblog/article-021117165728.png" alt="Third slide" />
+          <img className="d-block w-100 custom-img" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/107688670/original/7ce92b3c60643b6e07c3f2a4f37f7fc8446616f6/create-a-full-stack-mobile-responsive-web-app-using-mern.png" alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100 custom-img" src="https://content.nanobox.io/content/images/2017/11/heroku-to-azure.png" alt="Third slide" />
