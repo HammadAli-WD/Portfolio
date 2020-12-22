@@ -15,7 +15,7 @@ const MyNavbar = () => {
       >
         <div>
           <Navbar.Brand href="#home">
-            <Image className="logo" style={{ height: '50px', width: '50px' }} src="https://scontent-ber1-1.xx.fbcdn.net/v/t1.0-9/125977190_3461787383889021_8751797350800891773_n.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_ohc=WnfYJrt8-JYAX_Z6q6y&_nc_ht=scontent-ber1-1.xx&oh=a7d24e5bf38a9ea1464d7a8f7377f955&oe=5FDB146E" roundedCircle />
+            <Image className="logo" style={{ height: '50px', width: '50px' }} src='/assests/ProfilePhotos/profile.jpg' roundedCircle />
 
           </Navbar.Brand>
         </div>

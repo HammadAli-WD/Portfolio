@@ -16,7 +16,7 @@ const TimeLine = () => {
             date="11/01/2020"
             className="text-center"
             text="Node.js Express API Expatriates In Germany"
-            src="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/125951845_3464996786901414_4634422103179623787_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=ZTTQeexMIgIAX9Cou2e&_nc_ht=scontent-dus1-1.xx&oh=07b324c39b8f401a97bf0a060aa5ffa8&oe=5FDA92C2"
+            src='/assests/ProjectsPhotos/BE-Expats.jpg'
             alt="API-Expats"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -132,7 +132,7 @@ const TimeLine = () => {
             date="11/09/2020"
             className="text-center"
             text="Front-End Project For Expatriates"
-            src="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/126185055_3465001626900930_8391058147239461293_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=TWPA7jePdJQAX9KdWia&_nc_ht=scontent-dus1-1.xx&oh=a24c2ad413af0c70bdc1cc7c04dd7f41&oe=5FDC258D"
+            src='/assests/ProjectsPhotos/FE-Expats.jpg'
             alt="Front-End Project For Expatriates"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -247,7 +247,7 @@ const TimeLine = () => {
             date="11/18/2020"
             className="text-center"
             text="Portfolio"
-            src="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/126145744_3465005526900540_1578087433939689662_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=Xh59s_QqoDsAX-XOOPA&_nc_ht=scontent-dus1-1.xx&oh=e247adbbedfd8e1e07c56027464a53ca&oe=5FD9EB60"
+            src='/assests/ProjectsPhotos/portfolio.jpg'
             alt="Portfolio"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -327,20 +327,20 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              </div>
-            </div>
-            <UrlButton
+                <UrlButton
               href="https://competent-liskov-49a579.netlify.app/"
-              target="_blank"
-            >
+              target="_blank">
               SEE LIVE
                 </UrlButton>
             <UrlButton
               href="https://github.com/HammadAli-WD/portfolio.github.io"
-              target="_blank"
-            >
+              target="_blank">
               SOURCE CODE
                 </UrlButton>
+
+              </div>
+            </div>
+            
           </ImageEvent>
 
 
