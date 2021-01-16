@@ -242,6 +242,181 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
+          
+          {/* Project: Student Records App BE */}
+          <ImageEvent
+            date="11/01/2020"
+            className="text-center"
+            text="Node.js Express API Student Records App"
+            src='/assests/ProjectsPhotos/multer.png'
+            alt="API-Student Records App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                          <strong>Description:</strong> This is a API build in Nodejs and Express with MongoDB 
+                        storage for data on student records
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Use of Multer node.js middleware for uploading the files</li>
+                          <li>query-to-mongo convert query parameters into a mongo query</li>                          
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+
+                              <Image
+                                src="https://miro.medium.com/max/640/1*-ivYkzeuYJedPKdEdfnNlg.png"
+                                alt="MongoDB"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0Uu824N-jZhYSbpzi1YIoS-3cNkRhbkBPw&usqp=CAU"
+                                alt="Node.js"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src="https://expressjs.com/images/express-facebook-share.png"
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>                          
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">                
+                <UrlButton
+                  href="https://github.com/HammadAli-WD/StudentsProjects_BE"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+            {/* Project: FrontEnd Student Records App  */}
+          <ImageEvent
+            date="12/12/2020"
+            className="text-center"
+            text="Student Records App "
+            src='/assests/ProjectsPhotos/reactRedux.png'
+            alt="Student Records App "
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This app can be used for entering the student data with thier project details. The app is in process 
+                        for the frontend part of Project enteries for students.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Redux library is used for storing data</li>
+                          <li>Data fetched through redux store</li>
+                          <li>Reusable Components are used for fetching and updation</li>
+                          <li>Custom Model is created for enteries and updation</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/321/full/reactrouter.png"
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src="https://hackernoon.com/hn-images/1*VeM-5lsAtrrJ4jXH96h5kg.png"
+                                alt="React-Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React-Redux
+                            </span>
+                          </li>                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">               
+                <UrlButton
+                  href="https://github.com/HammadAli-WD/StudentsProjects_FE"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+
+              </div>
+            </div>
+          </ImageEvent>
+
+          
+
+
           {/* Project: My Portfolio */}
           <ImageEvent
             date="11/18/2020"
@@ -342,9 +517,6 @@ const TimeLine = () => {
             </div>
             
           </ImageEvent>
-
-
-
         </Events>
       </Timeline>
     </div>
