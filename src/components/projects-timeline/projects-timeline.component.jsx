@@ -245,7 +245,7 @@ const TimeLine = () => {
           
           {/* Project: Student Records App BE */}
           <ImageEvent
-            date="11/01/2020"
+            date="12/12/2020"
             className="text-center"
             text="Node.js Express API Student Records App"
             src='/assests/ProjectsPhotos/multer.png'
@@ -413,11 +413,7 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-
-          
-
-
-          {/* Project: My Portfolio */}
+           {/* Project: My Portfolio */}
           <ImageEvent
             date="11/18/2020"
             className="text-center"
